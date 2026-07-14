@@ -1,0 +1,49 @@
+---
+title: "How It Works"
+description: "Learn how buys, taxes, jackpot funding, and winner payouts work in Bulls Eye."
+---
+
+# How It Works
+
+Bulls Eye is built around buy-triggered jackpot entries.
+
+## Core flow
+
+1. A user buys `BEYE`.
+2. If the buy meets the minimum qualifying size, it becomes eligible for a jackpot shot.
+3. The buy receives weighted odds based on size.
+4. The lottery system resolves the result.
+5. If the buy wins, the wallet is paid in native ETH from the jackpot vault.
+
+## Jackpot structure
+
+- Qualified buys are the trigger for jackpot entries
+- The jackpot is funded from trading activity
+- The live jackpot is always `50%` of the available vault balance
+- This design keeps value in the vault at all times so there is always something left behind
+
+## Weighted odds
+
+Bulls Eye is built to reward conviction.
+
+- There is a minimum qualifying buy threshold
+- Larger qualifying buys receive larger weighted odds
+- The exact settings can be tuned by the owner if launch conditions require adjustment
+
+## Taxes
+
+- Buy tax: `5%`
+- Sell tax: `5%`
+
+Taxes are owner-adjustable, but both buy tax and sell tax are hard-capped at `10%`.
+
+## Important note
+
+The public game is intentionally simple:
+
+- buy
+- qualify
+- take a shot
+- verify the result on-chain
+
+That simplicity is part of the appeal.

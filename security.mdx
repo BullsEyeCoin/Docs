@@ -1,0 +1,41 @@
+---
+title: "Security"
+description: "Public-facing admin controls, safeguards, and owner permissions for Bulls Eye."
+---
+
+# Security
+
+Bulls Eye is designed to be straightforward to understand from a public trust perspective.
+
+## Owner controls
+
+The owner can:
+
+- Adjust buy tax and sell tax up to the hard cap
+- Adjust the minimum qualifying buy
+- Adjust jackpot odds settings
+- Update router, swap, and randomness configuration
+- Rescue unrelated ERC-20 tokens accidentally sent to the contracts
+
+## Vault safeguards
+
+The live jackpot vault is not intended to be freely sweepable during normal operation.
+
+- Emergency native withdrawal requires shutdown first
+- Emergency native withdrawal also requires a delay before funds can move
+- This is meant to reduce the risk of the live jackpot being treated like an always-open drain wallet
+
+## Public trust model
+
+The project still has active owner controls because launch conditions may require tuning.
+
+That tuning ability exists so the system can be adjusted if:
+
+- jackpots are being hit too often
+- jackpots are too hard to hit
+- minimum qualifying size needs to move
+- tax settings need to be reduced
+
+## Verification
+
+The result path is designed to be verifiable on-chain through contract state, transaction history, and public event flow.

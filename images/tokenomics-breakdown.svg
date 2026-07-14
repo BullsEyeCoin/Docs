@@ -1,0 +1,42 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="36" fill="#060806"/>
+  <circle cx="932" cy="144" r="182" fill="url(#glow)" opacity="0.18"/>
+  <circle cx="212" cy="688" r="156" fill="url(#glow)" opacity="0.14"/>
+  <text x="88" y="104" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="54" font-weight="800">Bulls Eye Tokenomics</text>
+  <text x="88" y="150" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="24">1,000,000,000 BEYE supply</text>
+
+  <circle cx="420" cy="424" r="210" fill="#0D120D" stroke="#1E2A1E" stroke-width="2"/>
+  <path d="M420 424 L420 214 A210 210 0 1 1 220.278 492.295 Z" fill="#7CFF00"/>
+  <path d="M420 424 L220.278 492.295 A210 210 0 0 1 289.795 259.381 Z" fill="#F4F973"/>
+  <path d="M420 424 L289.795 259.381 A210 210 0 0 1 420 214 Z" fill="#17B26A"/>
+  <path d="M420 424 L420 214 A210 210 0 0 1 484.893 224.275 Z" fill="#FF8A00"/>
+  <circle cx="420" cy="424" r="110" fill="#060806" stroke="#293529" stroke-width="2"/>
+  <circle cx="420" cy="424" r="34" fill="#7CFF00"/>
+
+  <rect x="700" y="246" width="396" height="104" rx="24" fill="#0B100B" stroke="#223022"/>
+  <rect x="724" y="278" width="18" height="18" rx="4" fill="#7CFF00"/>
+  <text x="760" y="294" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="30" font-weight="700">80% Liquidity</text>
+  <text x="760" y="326" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="21">LP will be locked</text>
+
+  <rect x="700" y="372" width="396" height="104" rx="24" fill="#0B100B" stroke="#223022"/>
+  <rect x="724" y="404" width="18" height="18" rx="4" fill="#F4F973"/>
+  <text x="760" y="420" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="30" font-weight="700">10% Team</text>
+  <text x="760" y="452" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="21">Team allocation will be locked</text>
+
+  <rect x="700" y="498" width="396" height="104" rx="24" fill="#0B100B" stroke="#223022"/>
+  <rect x="724" y="530" width="18" height="18" rx="4" fill="#17B26A"/>
+  <text x="760" y="546" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="30" font-weight="700">5% Marketing</text>
+  <text x="760" y="578" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="21">Ammo for rollout, callers, and content</text>
+
+  <rect x="700" y="624" width="396" height="104" rx="24" fill="#0B100B" stroke="#223022"/>
+  <rect x="724" y="656" width="18" height="18" rx="4" fill="#FF8A00"/>
+  <text x="760" y="672" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="30" font-weight="700">5% Treasury</text>
+  <text x="760" y="704" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="21">Ops, upkeep, and backup fuel</text>
+
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
+      <stop stop-color="#7CFF00"/>
+      <stop offset="1" stop-color="#7CFF00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

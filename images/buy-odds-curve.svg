@@ -1,0 +1,44 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="36" fill="#060806"/>
+  <circle cx="996" cy="108" r="170" fill="#7CFF00" opacity="0.12"/>
+  <text x="88" y="104" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="54" font-weight="800">Buy Odds Curve</text>
+  <text x="88" y="150" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="24">Example launch settings only. Owner can tune odds if needed.</text>
+
+  <rect x="88" y="204" width="1024" height="520" rx="28" fill="#0B100B" stroke="#223022"/>
+
+  <line x1="180" y1="660" x2="1040" y2="660" stroke="#415341" stroke-width="2"/>
+  <line x1="180" y1="260" x2="180" y2="660" stroke="#415341" stroke-width="2"/>
+
+  <line x1="180" y1="580" x2="1040" y2="580" stroke="#1C251C" stroke-width="1"/>
+  <line x1="180" y1="500" x2="1040" y2="500" stroke="#1C251C" stroke-width="1"/>
+  <line x1="180" y1="420" x2="1040" y2="420" stroke="#1C251C" stroke-width="1"/>
+  <line x1="180" y1="340" x2="1040" y2="340" stroke="#1C251C" stroke-width="1"/>
+  <line x1="180" y1="260" x2="1040" y2="260" stroke="#1C251C" stroke-width="1"/>
+
+  <text x="124" y="666" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0%</text>
+  <text x="114" y="586" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">1%</text>
+  <text x="114" y="506" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">2%</text>
+  <text x="114" y="426" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">3%</text>
+  <text x="114" y="346" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">4%</text>
+  <text x="114" y="266" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">5%</text>
+
+  <text x="174" y="712" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0.01 ETH</text>
+  <text x="334" y="712" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0.05 ETH</text>
+  <text x="500" y="712" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0.10 ETH</text>
+  <text x="664" y="712" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0.20 ETH</text>
+  <text x="836" y="712" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0.30 ETH</text>
+  <text x="996" y="712" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="18">0.50 ETH</text>
+
+  <path d="M180 652 C260 644 300 620 380 620 C460 620 500 580 580 580 C660 580 700 500 780 500 C860 500 900 420 960 420 C1010 420 1025 260 1040 260" stroke="#7CFF00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="180" cy="652" r="9" fill="#7CFF00"/>
+  <circle cx="380" cy="620" r="9" fill="#7CFF00"/>
+  <circle cx="580" cy="580" r="9" fill="#7CFF00"/>
+  <circle cx="780" cy="500" r="9" fill="#7CFF00"/>
+  <circle cx="960" cy="420" r="9" fill="#7CFF00"/>
+  <circle cx="1040" cy="260" r="11" fill="#F4F973"/>
+
+  <rect x="744" y="92" width="300" height="94" rx="22" fill="#0D120D" stroke="#283628"/>
+  <text x="772" y="126" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="26" font-weight="700">Example launch curve</text>
+  <text x="772" y="158" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Starts at 0.10%, caps at 5.00%</text>
+</svg>

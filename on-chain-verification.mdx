@@ -3,9 +3,7 @@ title: "On-Chain Verification"
 description: "What Bulls Eye users can verify directly on-chain."
 ---
 
-# On-Chain Verification
-
-Bulls Eye is built so the core mechanics can be checked on-chain.
+Bulls Eye only works if people can check the receipts.
 
 ## What users can verify
 
@@ -17,9 +15,11 @@ Bulls Eye is built so the core mechanics can be checked on-chain.
 
 ## What the Telegram feed represents
 
-The Telegram bot is meant to mirror the on-chain result flow for qualifying buys.
+The Telegram bot is just the scoreboard.
 
-That means:
+The chain is the source of truth. The bot is there to make the action readable.
+
+That means the posts should line up with:
 
 - result posts are tied to on-chain activity
 - winner messages correspond to on-chain resolution
@@ -27,11 +27,11 @@ That means:
 
 ## Why this matters
 
-The project works best when the community can independently confirm:
+People should be able to confirm for themselves:
 
 - whether a buy qualified
 - whether it won or lost
 - whether the payout actually happened
 - how the vault changed over time
 
-The goal is to keep the jackpot system transparent enough that the public game can be followed without relying only on social posts.
+If the chain says it happened, it happened.

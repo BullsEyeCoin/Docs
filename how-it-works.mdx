@@ -3,47 +3,53 @@ title: "How It Works"
 description: "Learn how buys, taxes, jackpot funding, and winner payouts work in Bulls Eye."
 ---
 
-# How It Works
+Bulls Eye is a buy-to-play jackpot token.
 
-Bulls Eye is built around buy-triggered jackpot entries.
-
-## Core flow
+## The loop
 
 1. A user buys `BEYE`.
-2. If the buy meets the minimum qualifying size, it becomes eligible for a jackpot shot.
-3. The buy receives weighted odds based on size.
-4. The lottery system resolves the result.
-5. If the buy wins, the wallet is paid in native ETH from the jackpot vault.
+2. If the buy clears the minimum size, it qualifies for a shot.
+3. The buy gets weighted odds based on size.
+4. Chainlink VRF resolves the draw.
+5. If the buy wins, native ETH is sent to that buyer wallet.
+6. If the buy misses, that draw is over and the next shot requires another buy.
 
-## Jackpot structure
+## What counts as a shot
 
-- Qualified buys are the trigger for jackpot entries
-- The jackpot is funded from trading activity
-- The live jackpot is always `50%` of the available vault balance
-- This design keeps value in the vault at all times so there is always something left behind
+- Only buys can trigger the jackpot
+- Sells pay tax but do not get a draw
+- The qualifying floor starts at `0.01 ETH`
+- The owner can raise or lower that floor if market conditions need it
 
-## Weighted odds
+## Why the pot does not instantly die
 
-Bulls Eye is built to reward conviction.
+- The public jackpot is always `50%` of the available vault
+- That means there is always something left behind after a win
+- The game can keep running without the vault going to zero every time somebody nails a shot
 
-- There is a minimum qualifying buy threshold
-- Larger qualifying buys receive larger weighted odds
-- The exact settings can be tuned by the owner if launch conditions require adjustment
+## Buy size matters
+
+Bulls Eye is built for conviction. Small buys can still play, but bigger buys get heavier odds.
+
+![Buy odds graph](./images/buy-odds-curve.svg)
+
+- The chart above is an example launch curve, not a forever promise
+- Odds can be tuned if the jackpot is getting farmed too hard or not getting hit enough
+- The goal is simple: winners happen, but the pot still has time to grow and attract attention
 
 ## Taxes
 
-- Buy tax: `5%`
+- Buy tax: `5%` total
 - Sell tax: `5%`
+- Current buy split: `4%` jackpot funding and `1%` vault funding
 
 Taxes are owner-adjustable, but both buy tax and sell tax are hard-capped at `10%`.
 
-## Important note
+## What people can verify
 
-The public game is intentionally simple:
+- The qualifying buy
+- The draw result
+- The winner payout
+- The live jackpot state
 
-- buy
-- qualify
-- take a shot
-- verify the result on-chain
-
-That simplicity is part of the appeal.
+If the bot says somebody won, the chain should back it up.

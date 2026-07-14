@@ -3,7 +3,9 @@ title: "Tokenomics"
 description: "Bulls Eye token supply, allocation, taxes, and launch policy."
 ---
 
-# Tokenomics
+Bulls Eye keeps the setup tight. No bloated split. No mystery buckets.
+
+![Tokenomics chart](./images/tokenomics-breakdown.svg)
 
 ## Identity
 
@@ -18,6 +20,8 @@ description: "Bulls Eye token supply, allocation, taxes, and launch policy."
 - `5%` marketing
 - `5%` treasury
 
+The pie chart shows the full starting supply split at launch.
+
 ## Launch policy
 
 - LP will be locked
@@ -26,14 +30,21 @@ description: "Bulls Eye token supply, allocation, taxes, and launch policy."
 ## Taxes
 
 - Buy tax: `5%`
+- Buy split: `4%` jackpot and `1%` vault
 - Sell tax: `5%`
 
 Taxes are owner-adjustable, but both buy tax and sell tax are hard-capped at `10%`.
 
+## Buy odds
+
+- Minimum qualifying buy starts at `0.01` native ETH equivalent
+- Larger buys receive larger weighted odds
+- Odds can be tuned by the owner if the game needs balancing
+
+![Buy odds graph](./images/buy-odds-curve.svg)
+
 ## Jackpot policy
 
 - Only qualifying buys trigger jackpot entries
-- Minimum qualifying buy starts at `0.01` native ETH equivalent
-- Larger buys receive larger weighted odds
 - Winners are paid in native ETH
 - The jackpot is always half of the available vault balance

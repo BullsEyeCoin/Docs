@@ -7,28 +7,30 @@
     "light": "#7CFF00",
     "dark": "#7CFF00"
   },
-  "navigation": [
-    {
-      "group": "Start Here",
-      "pages": [
-        "index",
-        "how-it-works",
-        "tokenomics"
-      ]
-    },
-    {
-      "group": "Trust",
-      "pages": [
-        "security",
-        "on-chain-verification",
-        "telegram"
-      ]
-    },
-    {
-      "group": "Support",
-      "pages": [
-        "faq"
-      ]
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Start Here",
+        "pages": [
+          "index",
+          "how-it-works",
+          "tokenomics"
+        ]
+      },
+      {
+        "group": "Trust",
+        "pages": [
+          "security",
+          "on-chain-verification",
+          "telegram"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "faq"
+        ]
+      }
+    ]
+  }
 }

@@ -1,6 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Bulls Eye",
+  "logo": {
+    "light": "/images/brand/logo-header-lockup-tight28.png",
+    "dark": "/images/brand/logo-header-lockup-tight28.png"
+  },
+  "favicon": "/images/brand/profile-icon.png",
   "theme": "mint",
   "colors": {
     "primary": "#7CFF00",
@@ -21,13 +26,20 @@
         "group": "Trust",
         "pages": [
           "security",
-          "on-chain-verification",
-          "telegram"
+          "contracts"
         ]
       },
       {
-        "group": "Support",
+        "group": "Access",
         "pages": [
+          "launch-access",
+          "partnerships"
+        ]
+      },
+      {
+        "group": "Community",
+        "pages": [
+          "telegram",
           "faq"
         ]
       }

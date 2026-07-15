@@ -24,7 +24,8 @@ The pie chart shows the full starting supply split at launch.
 
 ## Launch policy
 
-- LP will be locked
+- LP will be locked for `3 months`
+- After a successful launch, the LP will be burned forever
 - Team allocation will be locked
 
 ## Taxes
@@ -33,18 +34,17 @@ The pie chart shows the full starting supply split at launch.
 - Buy split: `4%` jackpot and `1%` vault
 - Sell tax: `5%`
 
-Taxes are owner-adjustable, but both buy tax and sell tax are hard-capped at `10%`.
-
 ## Buy odds
 
 - Minimum qualifying buy starts at `0.01` native ETH equivalent
-- Larger buys receive larger weighted odds
-- Odds can be tuned by the owner if the game needs balancing
+- Odds are based on the native ETH value of the buy
+- The curve tops out at `1 ETH = 10%`
 
 ![Buy odds graph](./images/buy-odds-curve.svg)
 
 ## Jackpot policy
 
 - Only qualifying buys trigger jackpot entries
+- Every eligible buy is resolved through Chainlink VRF
 - Winners are paid in native ETH
 - The jackpot is always half of the available vault balance

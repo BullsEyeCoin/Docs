@@ -1,42 +1,38 @@
 ---
 title: "Security"
-description: "Public-facing admin controls, safeguards, and owner permissions for Bulls Eye."
+description: ""
 ---
 
-Bulls Eye is not fake-renounced theater.
+## Chainlink VRF
 
-The owner keeps the knobs needed to keep the game alive, but the important limits are public.
+Every eligible buy is run through Chainlink VRF.
 
-## Owner controls
+The draw result is determined through the contract flow and can be verified on-chain.
 
-The owner can:
+## On-chain receipts
 
-- Adjust buy tax and sell tax up to the hard cap
-- Adjust the minimum qualifying buy
-- Adjust jackpot odds settings
-- Update router, swap, and randomness configuration
-- Rescue unrelated ERC-20 tokens accidentally sent to the contracts
+The important path is public:
 
-## Vault safeguards
+- an eligible buy comes in
+- Chainlink VRF resolves the draw
+- the result can be checked on-chain
+- if it wins, the payout goes out in native ETH
 
-The live jackpot is not meant to be an always-open wallet.
+If the chain says it happened, it happened.
 
-- Emergency native withdrawal requires shutdown first
-- Emergency native withdrawal also requires a delay before funds can move
-- That is there to reduce the chance of the jackpot looking like a free sweep button
+## Liquidity plan
 
-## Public trust model
+LP will be locked for `3 months` at launch.
 
-The project still has active owner controls because launch conditions can change fast.
+After a successful launch, the LP will be burned forever.
 
-Those controls exist so the team can react if:
+## Why this matters
 
-- jackpots are hitting too often
-- jackpots are too hard to hit
-- the minimum buy needs to move
-- taxes need to be lowered
-- odds need to be rebalanced
+The whole point is to make Bulls Eye feel simple:
 
-## Verification
+- buy
+- qualify
+- draw
+- verify
 
-The important part is this: buys, draws, payouts, and jackpot state should all be traceable on-chain.
+That is the trust model.

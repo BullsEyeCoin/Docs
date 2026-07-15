@@ -25,7 +25,15 @@ Robinhood Chain.
 - Buy split: `4%` jackpot, `1%` vault
 - Sell tax: `5%`
 
-Both are owner-adjustable, but capped at `10%`.
+Both buy tax and sell tax help keep Bulls Eye moving. Buys fuel the jackpot game, and the tax flow supports the vault and the future farm side of the ecosystem.
+
+## Is every jackpot draw verifiable?
+
+Yes. Every eligible buy is run through Chainlink VRF, and the result path can be checked on-chain.
+
+## What is the LP plan?
+
+LP will be locked for `3 months` at launch. After a successful launch, the LP will be burned forever.
 
 ## Do sells trigger jackpot entries?
 
@@ -33,20 +41,16 @@ No. Only buys can take a shot.
 
 ## What is the minimum qualifying buy?
 
-The starting floor is `0.01 ETH`, and the owner can adjust it if needed.
+The starting floor is `0.01 ETH`.
 
 ## Can bigger buys get better odds?
 
-Yes. Bigger buys get heavier odds.
+Yes. Bigger buys get better odds, based on the native ETH value of the buy.
+
+## What is the highest launch odds per buy?
+
+At launch, the curve tops out at `10%` on a `1 ETH` buy.
 
 ## How are winners paid?
 
 Winners are paid in native ETH from the jackpot vault.
-
-## Will LP be locked?
-
-Yes. Public launch messaging should state that LP will be locked.
-
-## Will the team allocation be locked?
-
-Yes. Public launch messaging should state that the team allocation will be locked.

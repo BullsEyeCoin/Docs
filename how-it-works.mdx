@@ -9,7 +9,7 @@ Bulls Eye is a buy-to-play jackpot token.
 
 1. A user buys `BEYE`.
 2. If the buy clears the minimum size, it qualifies for a shot.
-3. The buy gets weighted odds based on size.
+3. The buy gets a jackpot chance based on the native ETH value of that buy.
 4. Chainlink VRF resolves the draw.
 5. If the buy wins, native ETH is sent to that buyer wallet.
 6. If the buy misses, that draw is over and the next shot requires another buy.
@@ -19,7 +19,6 @@ Bulls Eye is a buy-to-play jackpot token.
 - Only buys can trigger the jackpot
 - Sells pay tax but do not get a draw
 - The qualifying floor starts at `0.01 ETH`
-- The owner can raise or lower that floor if market conditions need it
 
 ## Why the pot does not instantly die
 
@@ -33,17 +32,25 @@ Bulls Eye is built for conviction. Small buys can still play, but bigger buys ge
 
 ![Buy odds graph](./images/buy-odds-curve.svg)
 
-- The chart above is an example launch curve, not a forever promise
-- Odds can be tuned if the jackpot is getting farmed too hard or not getting hit enough
-- The goal is simple: winners happen, but the pot still has time to grow and attract attention
+| Buy amount | Chance to win |
+| ---------: | ------------: |
+| `0.01 ETH` |        `0.10%` |
+| `0.05 ETH` |        `0.50%` |
+| `0.10 ETH` |        `1.00%` |
+| `0.25 ETH` |        `2.50%` |
+| `0.50 ETH` |        `5.00%` |
+| `0.75 ETH` |        `7.50%` |
+| `1.00 ETH+` |      `10.00%` max |
+
+- Buys below `0.01 ETH` do not get a draw
+- Odds scale with the native ETH value of the buy, not the number of tokens received
+- Anything above `1 ETH` stays capped at `10%`
 
 ## Taxes
 
 - Buy tax: `5%` total
 - Sell tax: `5%`
 - Current buy split: `4%` jackpot funding and `1%` vault funding
-
-Taxes are owner-adjustable, but both buy tax and sell tax are hard-capped at `10%`.
 
 ## What people can verify
 

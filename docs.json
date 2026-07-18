@@ -6,6 +6,10 @@
     "dark": "/images/brand/logo-header-lockup-tight28.png"
   },
   "favicon": "/images/brand/profile-icon.png",
+  "thumbnails": {
+    "appearance": "dark",
+    "background": "/images/brand/read-the-docs-banner.jpg"
+  },
   "theme": "mint",
   "colors": {
     "primary": "#7CFF00",

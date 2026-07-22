@@ -3,32 +3,37 @@ title: "How It Works"
 description: "Learn how buys, taxes, jackpot funding, and winner payouts work in Bulls Eye."
 ---
 
-Bulls Eye is a buy-to-play jackpot token.
+Bulls Eye has two phases.
 
-## The loop
+## Phase 1: bonding builds the vault
 
-1. A user buys `BEYE`.
-2. If the buy clears the minimum size, it qualifies for a shot.
-3. The buy gets a jackpot chance based on the native ETH value of that buy.
-4. Chainlink VRF resolves the draw.
-5. If the buy wins, native ETH is sent to that buyer wallet.
-6. If the buy misses, that draw is over and the next shot requires another buy.
+- The Flap launch bonds first
+- Buy tax and sell tax keep feeding the vault
+- The pot can grow before the jackpot goes live
+- No buy alerts fire yet because the game is not armed
+
+## Phase 2: migration arms the jackpot
+
+1. The pair migrates.
+2. The jackpot is armed.
+3. Buys of at least `0.01 ETH` worth of `BEYE` qualify for a shot.
+4. The buy size sets the odds.
+5. Chainlink VRF resolves the draw.
+6. If the buy wins, `ETH` is sent straight to the buying wallet.
 
 ## What counts as a shot
 
 - Only buys can trigger the jackpot
-- Sells pay tax but do not get a draw
-- The qualifying floor starts at `0.01 ETH`
+- Sells still pay tax but do not get a draw
+- The floor starts at `0.01 ETH`
 
-## Why the pot does not instantly die
+## Why the pot does not die on one hit
 
 - The public jackpot is always `50%` of the available vault
-- That means there is always something left behind after a win
-- The game can keep running without the vault going to zero every time somebody nails a shot
+- Half stays behind after every hit
+- That keeps the game alive instead of going dead after one winner
 
 ## Buy size matters
-
-Bulls Eye is built for conviction. Small buys can still play, but bigger buys get heavier odds.
 
 ![Bulls Eye buy odds banner](./images/buy-odds-banner.jpg)
 
@@ -45,7 +50,3 @@ Bulls Eye is built for conviction. Small buys can still play, but bigger buys ge
 - Buys below `0.01 ETH` do not get a draw
 - Odds scale with the native ETH value of the buy, not the number of tokens received
 - Anything above `1 ETH` stays capped at `10%`
-
-## One thing to know
-
-- Odds are based on the native ETH value of the buy, not the number of tokens received

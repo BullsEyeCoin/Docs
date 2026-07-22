@@ -30,19 +30,14 @@
         "group": "Trust",
         "pages": [
           "security",
-          "contracts"
-        ]
-      },
-      {
-        "group": "Access",
-        "pages": [
-          "launch-access",
-          "partnerships"
+          "contracts",
+          "on-chain-verification"
         ]
       },
       {
         "group": "Community",
         "pages": [
+          "partnerships",
           "telegram",
           "faq"
         ]

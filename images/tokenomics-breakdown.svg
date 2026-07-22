@@ -6,38 +6,38 @@
   <text x="88" y="150" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="24">1,000,000,000 BEYE supply</text>
 
   <circle cx="420" cy="424" r="210" fill="#0D120D" stroke="#1E2A1E" stroke-width="2"/>
-  <path d="M420 424 L420 214 A210 210 0 1 1 272.783 573.746 Z" fill="#7CFF00"/>
-  <path d="M420 424 L272.783 573.746 A210 210 0 0 1 220.278 492.295 Z" fill="#F4F973"/>
-  <path d="M420 424 L220.278 492.295 A210 210 0 0 1 289.795 259.381 Z" fill="#17B26A"/>
-  <path d="M420 424 L289.795 259.381 A210 210 0 0 1 350.308 225.901 Z" fill="#38BDF8"/>
-  <path d="M420 424 L350.308 225.901 A210 210 0 0 1 420 214 Z" fill="#FF8A00"/>
+  <g transform="rotate(-90 420 424)">
+    <circle cx="420" cy="424" r="170" fill="none" stroke="#7CFF00" stroke-width="100" stroke-dasharray="854.51 213.63"/>
+    <circle cx="420" cy="424" r="170" fill="none" stroke="#F4F973" stroke-width="100" stroke-dasharray="106.81 961.33" stroke-dashoffset="-854.51"/>
+    <circle cx="420" cy="424" r="170" fill="none" stroke="#38BDF8" stroke-width="100" stroke-dasharray="53.41 1014.73" stroke-dashoffset="-961.32"/>
+    <circle cx="420" cy="424" r="170" fill="none" stroke="#FF8A00" stroke-width="100" stroke-dasharray="53.41 1014.73" stroke-dashoffset="-1014.73"/>
+  </g>
   <circle cx="420" cy="424" r="110" fill="#060806" stroke="#293529" stroke-width="2"/>
   <circle cx="420" cy="424" r="34" fill="#7CFF00"/>
 
   <rect x="700" y="176" width="396" height="94" rx="24" fill="#0B100B" stroke="#223022"/>
   <rect x="724" y="208" width="18" height="18" rx="4" fill="#7CFF00"/>
-  <text x="760" y="229" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">65% Launch LP</text>
+  <text x="760" y="229" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">80% Launch LP</text>
   <text x="760" y="257" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">LP will be locked</text>
 
   <rect x="700" y="286" width="396" height="94" rx="24" fill="#0B100B" stroke="#223022"/>
   <rect x="724" y="318" width="18" height="18" rx="4" fill="#F4F973"/>
-  <text x="760" y="339" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">15% Early Access</text>
-  <text x="760" y="367" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Seeds LP, rollout, and KOLs</text>
+  <text x="760" y="339" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">10% Team</text>
+  <text x="760" y="367" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Team allocation will be locked</text>
 
   <rect x="700" y="396" width="396" height="94" rx="24" fill="#0B100B" stroke="#223022"/>
-  <rect x="724" y="428" width="18" height="18" rx="4" fill="#17B26A"/>
-  <text x="760" y="449" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">10% Team</text>
-  <text x="760" y="477" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Team allocation will be locked</text>
+  <rect x="724" y="428" width="18" height="18" rx="4" fill="#38BDF8"/>
+  <text x="760" y="449" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">5% Marketing</text>
+  <text x="760" y="477" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Rollout, callers, and content</text>
 
   <rect x="700" y="506" width="396" height="94" rx="24" fill="#0B100B" stroke="#223022"/>
-  <rect x="724" y="538" width="18" height="18" rx="4" fill="#38BDF8"/>
-  <text x="760" y="559" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">5% Marketing</text>
-  <text x="760" y="587" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Ammo for rollout, callers, and content</text>
+  <rect x="724" y="538" width="18" height="18" rx="4" fill="#FF8A00"/>
+  <text x="760" y="559" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">5% Treasury</text>
+  <text x="760" y="587" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Ops, upkeep, and backup fuel</text>
 
   <rect x="700" y="616" width="396" height="94" rx="24" fill="#0B100B" stroke="#223022"/>
-  <rect x="724" y="648" width="18" height="18" rx="4" fill="#FF8A00"/>
-  <text x="760" y="669" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="28" font-weight="700">5% Treasury</text>
-  <text x="760" y="697" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">Ops, upkeep, and backup fuel</text>
+  <text x="724" y="653" fill="#F5FFF0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Launch taxes</text>
+  <text x="724" y="686" fill="#A7B8A0" font-family="Arial, sans-serif" font-size="20">5% buy tax • 5% sell tax • vault funded on both sides</text>
 
   <defs>
     <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
